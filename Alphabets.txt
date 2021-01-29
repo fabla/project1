@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// alphabets are the basis of learning
 
 public class alphas {
 
