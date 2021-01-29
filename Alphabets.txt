@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class alphas {
+
+	public static void main(String[] args) {
+		
+		//Using Scanner to get User Input for the letter
+		System.out.println("Please Enter the Letter: ");
+		try (Scanner UserInput = new Scanner (System.in)) {
+			char letter = UserInput.next().charAt(0);		
+			
+//Using if else statement to check for vowels and consonant
+if(letter== 'a' || letter == 'e' || letter== 'i' || letter == 'o' || letter=='u') {	
+System.out.println("The Letter Entered is a vowel");
+}else {
+			System.out.println("The Letter Entered is a consonant");
+			}
+		}
+
+
+	}
+
+}
