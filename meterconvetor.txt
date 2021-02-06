@@ -1,5 +1,6 @@
 
 // Meter convertion calculator
+// calculations makes easier.
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
