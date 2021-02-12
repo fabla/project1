@@ -1,6 +1,7 @@
 
 // Meter convertion calculator
-// calculations makes easier. This is my change (Jorge)
+// calculations are the best way of getting things done.
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
