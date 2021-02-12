@@ -3,8 +3,10 @@ import java.util.Scanner;
 
 public class alphas {
 
+// new version
 
-// This is a new comment by Majeed
+// This is a new comment made by Jorge
+
 	public static void main(String[] args) {
 		
 		//Using Scanner to get User Input for the letter
