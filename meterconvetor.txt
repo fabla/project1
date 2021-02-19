@@ -4,7 +4,9 @@
 
 
 import java.io.BufferedReader;
+
 import java.io.InputStreamReader; // import the second file
+import java.io.InputStreamReader; // Change 1
 
 public class MeterConvertor {
 
@@ -21,6 +23,8 @@ public class MeterConvertor {
 		double Meters = 1852*NauticalMiles;
 
 		System.out.println(Meters); // everything is working well
+		System.out.println(Meters); // Change 2
+
 	}
 
 }
