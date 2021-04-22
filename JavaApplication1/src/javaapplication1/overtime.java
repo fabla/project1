@@ -3,60 +3,41 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package overtime;
+package javaapplication1;
 
 /**
  *
  * @author FABLA
- * 
+ *
  */
-
 import java.util.Scanner;
 
-public class Overtime {
+public class overtime {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-         
-        int weekly = 40; 
-        
+        int weekly = 40;
+
         int pay = 100;
-        int pay1 = pay*2;
-        int pay2 = pay*3;
-         
-         System.out.println("How many hour(s) did you work this week");
-          Scanner console = new Scanner(System.in);
-          int overtime = console.nextInt();
-         
- 
-if (overtime <= 8 & overtime != 0){
-   
-  System.out.println("your overtime pay  is : " + (pay1) );
+        int pay1 = pay * 2;
+        int pay2 = pay * 3;
+
+        System.out.println("How many hour(s) did you work this week");
+        Scanner console = new Scanner(System.in);
+        int overtime = console.nextInt();
+
+        if (overtime <= 8 & overtime != 0) {
+
+
+            System.out.println("your overtime pay  is : " + (pay1));
+        } else if (overtime > 8) {
+            System.out.println("your overall pay  is : " + (pay1 + pay2));
+
+        } else {
+            System.out.println("Your weekly pay is : " + 100);
+        }
+    }
 }
-else
-    if (overtime > 8){
-        System.out.println("your overall pay  is : " + (pay1 + pay2) );
-    
-    }
-    
-else
-  System.out.println("Your weekly pay is : " + 100);
-    }
-    }
- 
-
-
-
-
-/*
-Create a program that determines how much money a worker will receive for the overtime they do in a company. 
-The overtime hours are those that exceed 40 hours per week. 
-
-When the overtime hours are not more than 8, they are paid double, 
-when they go beyond 8, the first 8 are paid double and the rest triple. 
-
-*/
