@@ -23,20 +23,17 @@ public class Triangle {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
 
-		BufferedReader  reader= new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Please Enter The Height: ");
-		int size = Integer.parseInt(reader.readLine());
-		for (int i=1; i<=size; i++)
-		{
-			for(int j=1; j<=size; j++)
-			{
-				if(j<=i)
-				System.out.print("*");
-			}	
-				System.out.println();
-		}
-	}
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Please Enter The Height: ");
+        int size = Integer.parseInt(reader.readLine());
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if (j <= i) {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+    }
 
 }
-
-
