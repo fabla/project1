@@ -49,3 +49,14 @@ else
     }
  
 
+
+
+
+/*
+Create a program that determines how much money a worker will receive for the overtime they do in a company. 
+The overtime hours are those that exceed 40 hours per week. 
+
+When the overtime hours are not more than 8, they are paid double, 
+when they go beyond 8, the first 8 are paid double and the rest triple. 
+
+*/
